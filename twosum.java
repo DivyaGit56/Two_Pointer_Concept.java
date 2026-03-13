@@ -1,3 +1,5 @@
+// FOR THAT QUESTION TWO POINTER APPLY ONLY WHEN ARRAY IS SORTED
+
 public class Twosum {
     
     public static int[] twoSum(int []nums, int target){
@@ -18,6 +20,7 @@ public class Twosum {
 
      return new int[]{l,h};
     }
+    
     public static void main(String[] args){
         int[] nums = {2,4,7,8,11};
         int target = 9;
